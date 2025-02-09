@@ -1,8 +1,8 @@
 # SafeMessage
-Eine Software die heutzutage eine sichere verbindung egal über welche platform bietet
+Eine Software die heutzutage eine sichere Verbindung egal über welche Plattform bietet
 
 # Features
-- Berechnung des Diffie Hellman Protokol mit dem ein Sicherer Austausch der Schlüssel gewährleistet ist!
+- Berechnung des Diffie Hellman Protokoll mit dem ein sicherer Austausch der Schlüssel gewährleistet ist!
 
 # Anforderungen
 - Python
