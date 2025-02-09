@@ -3,3 +3,4 @@ Eine Software die heutzutage eine sichere verbindung egal über welche platform 
 
 # Anforderungen
 - Python
+- Import sympy
