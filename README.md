@@ -5,5 +5,5 @@ Eine Software die heutzutage eine sichere verbindung egal über welche platform 
 - Berechnung des Diffie Hellman Protokol mit dem ein Sicherer Austausch der Schlüssel gewährleistet ist!
 
 # Anforderungen
-- Python 3.11 oder höher
+- Python
 - Import sympy
