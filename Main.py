@@ -17,7 +17,7 @@ p = random_prime() #Primzahl
 
 g = get_integer_input("Basis: ") #Basis
 
-print(str(g)+ " " + str(p))
+print("Basis: " + str(g)+ " Primzahl:" + str(p))
 
 a = get_integer_input("Gebe jetzt eine Geheime Zahl an: ") #Geheimnis
 
