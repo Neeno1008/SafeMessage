@@ -1,2 +1,2 @@
 # SafeMessage
-Eine Software die heutzutage eiene sichere verbindung egal über welche platform bietet
+Eine Software die heutzutage eine sichere verbindung egal über welche platform bietet
