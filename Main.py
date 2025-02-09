@@ -2,25 +2,30 @@
 import sympy
 import random
 
-def random_prime(start=1000, end=100000):
+def get_integer_input(prompt):
+    while True:
+        try:
+            return int(input(prompt))
+        except ValueError:
+            print("Bitte gib eine gültige Zahl ein.")
+
+def random_prime(start=1000000, end=10000000000):
     primes = list(sympy.primerange(start, end))
     return random.choice(primes)
 
 p = random_prime() #Primzahl
-print(p)
-print(p)
 
-g = input("Gebe hier deine Basis an mit der die Verschlüsselung arbeitet ihr müsst beide die gleiche haben!: ") #Basis
+g = get_integer_input("Basis: ") #Basis
 
 print(str(g)+ " " + str(p))
 
-a = input("Gebe jetzt eine Zahl an die du mit niemanden Teilst: ") #Geheimnis
+a = get_integer_input("Gebe jetzt eine Geheime Zahl an: ") #Geheimnis
 
 A = int(g) ** int(a) % p
 
 print("Sende jetzt deinem Empfänger diesen Schlüssel: " + str(A))
 
-B = input("Gebe jetzt den Schlüssel ein den du von deinem Empfänger bekommen hast: ")
+B = get_integer_input("Gebe jetzt den Schlüssel ein den du von deinem Empfänger bekommen hast: ")
 
 K = int(B) ** int(a) % p
 
